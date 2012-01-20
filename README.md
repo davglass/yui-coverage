@@ -1,16 +1,16 @@
 YUI Code Coverage Helper
-------------------------
+========================
 
 This little CLI tool will aid YUI developers with their code coverage for the library.
 
 Install
-=======
+-------
 
     npm -g i https://github.com/davglass/yui-coverage
 
 
 Usage
-=====
+-----
 
     cd yui3/src/dd
     yui-coverage
