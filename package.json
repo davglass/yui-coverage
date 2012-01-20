@@ -1,0 +1,17 @@
+{
+    "name": "yui-coverage",
+    "version": "0.0.1",
+    "description": "Express server to serve YUI test coverage files.",
+    "dependencies": {
+        "express": "*",
+        "colors": "*",
+        "mkdirp": "*",
+        "socket.io": "*",
+        "rimraf": "*"
+    },
+    "bin": {
+        "yui-coverage": "./bin/cli.js"
+    },
+    "main": "./lib/index.js",
+    "preferGlobal": "true"
+}
