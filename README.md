@@ -6,7 +6,7 @@ This little CLI tool will aid YUI developers with their code coverage for the li
 Install
 -------
 
-    npm -g i https://github.com/davglass/yui-coverage/tarball/master 
+    npm -g i yui-coverage 
 
 
 Usage
