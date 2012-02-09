@@ -2,13 +2,14 @@
 
 var cli = require('cli'),
     path = require('path'),
-    server = require('yui-coverage');
+    server = require('../lib/');
 
 cli.enable('help', 'version');
 
 var meta = require(path.join('../package.json'));
 
 cli.parse({
+    modules: ['m', 'Comma separated list of modules to cover. (overides meta)', 'string'],
     version: ['v', 'Print the version'],
     port: ['p', 'The port number to assign: default 3000', 'number', 3000]
 });
@@ -20,7 +21,6 @@ cli.main(function() {
         console.log('v' + meta.version);
         return;
     }
-
     server.start(opts);
 });
 
