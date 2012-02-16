@@ -10,6 +10,7 @@ var meta = require(path.join('../package.json'));
 
 cli.parse({
     modules: ['m', 'Comma separated list of modules to cover. (overides meta)', 'string'],
+    upstream: ['u', 'Provide coverage for all upstream modules too', 'boolean', false],
     version: ['v', 'Print the version'],
     port: ['p', 'The port number to assign: default 3000', 'number', 3000]
 });
