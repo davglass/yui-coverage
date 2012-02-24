@@ -1,6 +1,6 @@
 {
     "name": "yui-coverage",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "Express server to serve YUI test coverage files for faster development.",
     "dependencies": {
         "express": "2.5.6",
